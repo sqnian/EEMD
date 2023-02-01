@@ -45,7 +45,7 @@ def plot_imf(data_value,E_IMFs):
     vis.save(path)
     
 
-# 保存分量+残余分量
+# 保存分量
 def save_imf(E_IMFs):
     for i  in range(len(E_IMFs)):
         a = E_IMFs[i]
